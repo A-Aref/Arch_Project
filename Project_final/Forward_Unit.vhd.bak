@@ -1,0 +1,29 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Forward_Unit is 
+port(
+	src1,src2,dest_out_mem,dest_out_ex : in std_logic_vector(2 downto 0);  -- 2 to 0
+	opcode : in std_logic_vector(6 downto 0); --6 downto 0
+	mem_read_sig,regwrite_out_mem,regwrite_out_ex: in std_logic;
+);
+end entity;
+
+architecture behavioural of Exception_Handling is
+Signal is_invalid_address : std_logic;
+  begin
+		-- want to make sure that wen memory range exceeded we go to 4096 not return to 0
+
+		-- Address Validation Logic
+    is_invalid_address <= '1' when (final_address > "0000111111111111") else '0';  --0x0fff
+
+    -- Raise Exception Signal Logic
+    exception_signal <= '1' when (is_invalid_address = '1') else '0';
+
+    -- SP or MEM Signal Logic
+    sp_or_memory <= is_pop; -- 1 for empty stack, 0 for invalid memory address.
+
+  
+
+end architecture;

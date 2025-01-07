@@ -1,0 +1,44 @@
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ENTITY Controller IS 
+	PORT(
+		Opcode: IN std_logic_vector(6 downto 0)
+	);
+END ENTITY;
+
+ARCHITECTURE Controller_arch OF Controller IS
+BEGIN
+	ImmJmp <= '1' when Opcode(6 downto 5) = "01" else '0';
+	HltSig <= '1' when Opcode = "0000001" else '0';
+	SetC <= '1' when Opcode = "0000010" else '0';
+	INSel <= '1' when Opcode = "0000011" else '0';
+	OUTSel <= '1' when Opcode = "0000100" else '0';
+	ALUOp <= Opcode(2 downto 0) when Opcode(6 downto 3) = "0001"
+		else "110" when Opcode = "1010001"
+		else "011" when Opcode(6) = '1'; -- and Opcode /= "1010001";
+	ALUsrc <= Opcode(6);
+	Src1Read <= '0' when Opcode = "0011111" or Opcode = "0011101"
+		or Opcode = "0010101" or Opcode(6 downto 5) = "01"
+		or Opcode(6 downto 3) = "00000" else '1';
+	Src2Read <= '1' when Opcode = "0001011" or Opcode = "0001100" 
+		or Opcode = "0001101" or Opcode = "1010011" else '0';
+	SpEn <=  when Opcode(4) = '1' and Opcode(2) = '1' else '0';
+	Push <= '1' when Opcode = "0010100" or Opcode = "0011100"
+		or Opcode = "1111110" else '0';
+	Pop  <= '1' when Opcode = "0010101" or Opcode = "0011101"
+		or Opcode = "0011111" else '0';
+	CALL <= '1' when Opcode = "0011100" or Opcode = "1111110" else '0';
+	RET  <= '1' when Opcode = "0011101" else '0';
+	RTI  <= '1' when Opcode = "0011111" else '0';
+	JmpEn <= '1' when Opcode(4 downto 3) = "11" else '0';
+	JmpSel <= Opcode(1 downto 0) when Opcode(4 downto 2) = "110"
+		else "11";
+	WB <= '0' when Opcode(4 downto 3) = "11" or Opcode(6 downto 5) = "01"
+		or Opcode = "1010011" or Opcode = "0010100" or Opcode = "0000100"
+		or Opcode = "0000000" or Opcode = "0000001" or Opcode = "0000010"
+		else '1';
+	FWB <= '1' when Opcode(4 downto 3) = "11" else '0';
+END ARCHITECTURE;

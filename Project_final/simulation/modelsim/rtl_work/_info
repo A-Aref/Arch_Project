@@ -1,0 +1,656 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/simulation/modelsim
+Ealu
+Z1 w1735197218
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/ALU.vhd
+Z6 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/ALU.vhd
+l0
+L6
+VSBE<<@knm^5gaP;FT5n=W1
+!s100 Ggg3dRa5UznC2RKBhl5>R0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1735199085
+!i10b 1
+Z9 !s108 1735199085.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/ALU.vhd|
+Z11 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/ALU.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aalu_arch
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 SBE<<@knm^5gaP;FT5n=W1
+l36
+L20
+Vk27e0d9A_I;BXm45P8D`E2
+!s100 8oM:5Y?HWcA`ozD1Y@XLH3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eccr
+R1
+R3
+R4
+R0
+Z14 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CCR.vhd
+Z15 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CCR.vhd
+l0
+L5
+Vc;GjBH@9^bXAQY9`hFE=]3
+!s100 UO6z]8<gJZ5J@24gJ`o;P0
+R7
+31
+Z16 !s110 1735199086
+!i10b 1
+Z17 !s108 1735199086.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CCR.vhd|
+Z19 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CCR.vhd|
+!i113 1
+R12
+R13
+Accr_arch
+R3
+R4
+DEx4 work 3 ccr 0 22 c;GjBH@9^bXAQY9`hFE=]3
+l17
+L15
+VV[NB6ePTPa2V41W[E5NhT1
+!s100 i<kR4VhhNFF_faV<_A[3^1
+R7
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
+Econtroller
+R1
+R2
+R3
+R4
+R0
+Z20 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Controller.vhd
+Z21 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Controller.vhd
+l0
+L6
+V9h<TZdF_21CVDYbS[WXnV2
+!s100 ^MiW`mbE0=[S]Ri5148V:2
+R7
+31
+R16
+!i10b 1
+R17
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Controller.vhd|
+Z23 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Controller.vhd|
+!i113 1
+R12
+R13
+Acontroller_arch
+R2
+R3
+R4
+DEx4 work 10 controller 0 22 9h<TZdF_21CVDYbS[WXnV2
+l35
+L34
+VZU`amG=nT[A2XF?11:@>Y1
+!s100 3jD24Y5D@HF3KQAjzKbdj3
+R7
+31
+R16
+!i10b 1
+R17
+R22
+R23
+!i113 1
+R12
+R13
+Ecpu
+R1
+R3
+R4
+R0
+Z24 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CPU.vhd
+Z25 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CPU.vhd
+l0
+L4
+VmYXTOO^jK7SZShY9iKHQ`0
+!s100 6m^JLgiNm5imb4;CBWEcH0
+R7
+31
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CPU.vhd|
+Z27 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CPU.vhd|
+!i113 1
+R12
+R13
+Acpu_arch
+R3
+R4
+DEx4 work 3 cpu 0 22 mYXTOO^jK7SZShY9iKHQ`0
+l335
+L12
+Vc0GIWUf:1Po?M;QGTzQF22
+!s100 bnS^200YhgjXQ_l_eNlWe3
+R7
+31
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Edata_mem
+R1
+R2
+R3
+R4
+R0
+Z28 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Data_Mem.vhd
+Z29 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Data_Mem.vhd
+l0
+L6
+Vz0E_=TII1J;MJlQ9<KTU72
+!s100 [Z0NDcIKZb0T_99f?gmLk0
+R7
+31
+R16
+!i10b 1
+R17
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Data_Mem.vhd|
+Z31 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Data_Mem.vhd|
+!i113 1
+R12
+R13
+Adata_mem_arch
+R2
+R3
+R4
+DEx4 work 8 data_mem 0 22 z0E_=TII1J;MJlQ9<KTU72
+l22
+L19
+VcMgaY5S6fV_GnZ0bUf>Bf1
+!s100 1jfg1^W^20Eb3]ULWbZA10
+R7
+31
+R16
+!i10b 1
+R17
+R30
+R31
+!i113 1
+R12
+R13
+Edecodeexecute
+R1
+R2
+R3
+R4
+R0
+Z32 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/DecodeExecute.vhd
+Z33 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/DecodeExecute.vhd
+l0
+L5
+V1laa7eTlVmIc8814WG=Xo3
+!s100 kQPK5GMcB:Zkm?f]6L>OB0
+R7
+31
+Z34 !s110 1735199084
+!i10b 1
+Z35 !s108 1735199084.000000
+Z36 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/DecodeExecute.vhd|
+Z37 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/DecodeExecute.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 decodeexecute 0 22 1laa7eTlVmIc8814WG=Xo3
+l86
+L85
+Vj8TTbF?9mfm`zzfIA6?BW2
+!s100 i5WQ:jB8n`SFjGEHg7Yz33
+R7
+31
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Eepc
+R1
+R2
+R3
+R4
+R0
+Z38 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/EPC.vhd
+Z39 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/EPC.vhd
+l0
+L6
+V;ge^zdVX^ESYQhRDU1C_@0
+!s100 mPS[FnaGELXKd`PXUBEIo0
+R7
+31
+R34
+!i10b 1
+R35
+Z40 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/EPC.vhd|
+Z41 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/EPC.vhd|
+!i113 1
+R12
+R13
+Abehavioural
+R2
+R3
+R4
+DEx4 work 3 epc 0 22 ;ge^zdVX^ESYQhRDU1C_@0
+l22
+L20
+VnCC7DXPODO7SEbmg`7<4G0
+!s100 =ZJ<^Mdz=lHn40KA9o2fg2
+R7
+31
+R34
+!i10b 1
+R35
+R40
+R41
+!i113 1
+R12
+R13
+Eexception_handling
+R1
+R2
+R3
+R4
+R0
+Z42 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Exception_Handling.vhd
+Z43 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Exception_Handling.vhd
+l0
+L5
+V65R0zo7NX9:BhRTC0CT@<3
+!s100 QihY5?E^?87JlX;d46?5G2
+R7
+31
+R34
+!i10b 1
+R35
+Z44 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Exception_Handling.vhd|
+Z45 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Exception_Handling.vhd|
+!i113 1
+R12
+R13
+Abehavioural
+R2
+R3
+R4
+DEx4 work 18 exception_handling 0 22 65R0zo7NX9:BhRTC0CT@<3
+l23
+L21
+Vbi:h`AH7_G?XXY[8d`7J62
+!s100 ^E3fAdibD>1on>J98GiY81
+R7
+31
+R34
+!i10b 1
+R35
+R44
+R45
+!i113 1
+R12
+R13
+Efetchdecode
+R1
+R2
+R3
+R4
+R0
+Z46 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/FetchDecode.vhd
+Z47 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/FetchDecode.vhd
+l0
+L5
+VYm3JZHecZB8:QhKO56;oS3
+!s100 :Fc;i0>oPQhN6DRnfTnj92
+R7
+31
+R34
+!i10b 1
+R35
+Z48 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/FetchDecode.vhd|
+Z49 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/FetchDecode.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 11 fetchdecode 0 22 Ym3JZHecZB8:QhKO56;oS3
+l27
+L26
+V]nDEQc0^zN4Dj13PBNUnK2
+!s100 5l_74i0]g`lTN6fTW5BbZ1
+R7
+31
+R34
+!i10b 1
+R35
+R48
+R49
+!i113 1
+R12
+R13
+Eforward_unit
+R1
+R2
+R3
+R4
+R0
+Z50 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Forward_Unit.vhd
+Z51 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Forward_Unit.vhd
+l0
+L5
+VI[Rje6TDfBazjhm^hhDFE3
+!s100 a^BXCc4?dh3;]fL_4JTB=2
+R7
+31
+R16
+!i10b 1
+R17
+Z52 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Forward_Unit.vhd|
+Z53 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Forward_Unit.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+R4
+DEx4 work 12 forward_unit 0 22 I[Rje6TDfBazjhm^hhDFE3
+l17
+L15
+VfWUg3<7FET<UzIJj6c66T3
+!s100 `P?iBj5Rcn1ZE_Qm1A6ZZ3
+R7
+31
+R16
+!i10b 1
+R17
+R52
+R53
+!i113 1
+R12
+R13
+Efull_adder
+R1
+R3
+R4
+R0
+Z54 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Full_adder.vhd
+Z55 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Full_adder.vhd
+l0
+L5
+V_0Z8a;7>3n>[QaAEOQWVL3
+!s100 JUJWGc2UZX<ZCJd8ReV9a2
+R7
+31
+R8
+!i10b 1
+R9
+Z56 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Full_adder.vhd|
+Z57 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Full_adder.vhd|
+!i113 1
+R12
+R13
+Afull_adder_arch
+R3
+R4
+DEx4 work 10 full_adder 0 22 _0Z8a;7>3n>[QaAEOQWVL3
+l17
+L15
+V1eBQ<Ca7>J7[?J?l<Mo7I1
+!s100 34L=AX>8YkHaN=NTI7UNV2
+R7
+31
+R8
+!i10b 1
+R9
+R56
+R57
+!i113 1
+R12
+R13
+Einst_mem
+R1
+R2
+R3
+R4
+R0
+Z58 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd
+Z59 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd
+l0
+L6
+V2;e_QoJ^W7NNXIJ5kcPnd3
+!s100 G[MVLI=LozD6f?=eK6[>F2
+R7
+31
+R8
+!i10b 1
+R9
+Z60 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd|
+Z61 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd|
+!i113 1
+R12
+R13
+Ainst_mem_arch
+R2
+R3
+R4
+DEx4 work 8 inst_mem 0 22 2;e_QoJ^W7NNXIJ5kcPnd3
+l34
+L16
+Va;6C23mMJ6<4RiKgk>>?D2
+!s100 kXdk_jd798LDbT4?nZ_Jg0
+R7
+31
+R8
+!i10b 1
+R9
+R60
+R61
+!i113 1
+R12
+R13
+En_bit_adder
+R1
+R3
+R4
+R0
+Z62 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_bit_adder.vhd
+Z63 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_bit_adder.vhd
+l0
+L5
+VPP[XzS]6b5O2[adNX:FX03
+!s100 0=mIYSzQez[K27N8Ac17S1
+R7
+31
+R8
+!i10b 1
+R35
+Z64 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_bit_adder.vhd|
+Z65 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_bit_adder.vhd|
+!i113 1
+R12
+R13
+An_bit_adder_arch
+R3
+R4
+DEx4 work 11 n_bit_adder 0 22 PP[XzS]6b5O2[adNX:FX03
+l27
+L16
+V2gkh8lmK9L?jMOX61dY?_3
+!s100 ha6R3OLj=cjFQdDbZlHT_2
+R7
+31
+R8
+!i10b 1
+R35
+R64
+R65
+!i113 1
+R12
+R13
+En_dff
+R1
+R3
+R4
+R0
+Z66 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_DFF.vhd
+Z67 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_DFF.vhd
+l0
+L5
+Vf0M4BZiVe`5EoC43`HWPW3
+!s100 bVmdaW28@R4mK1G39gb4`2
+R7
+31
+R8
+!i10b 1
+R9
+Z68 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_DFF.vhd|
+Z69 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_DFF.vhd|
+!i113 1
+R12
+R13
+An_dff_arch
+R3
+R4
+DEx4 work 5 n_dff 0 22 f0M4BZiVe`5EoC43`HWPW3
+l15
+L14
+V;E:GIkeaQcRLZ_FjnQ]6<1
+!s100 idCE>DdWCZUzF[0N3:e@^0
+R7
+31
+R8
+!i10b 1
+R9
+R68
+R69
+!i113 1
+R12
+R13
+Ereg_file
+R1
+R2
+R3
+R4
+R0
+Z70 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Reg_File.vhd
+Z71 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Reg_File.vhd
+l0
+L6
+V0@XZ=L><0e0m?MYgVTmg`2
+!s100 bR0Q13X1^n2:_05c:=_:a2
+R7
+31
+R34
+!i10b 1
+R35
+Z72 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Reg_File.vhd|
+Z73 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Reg_File.vhd|
+!i113 1
+R12
+R13
+Areg_file_arch
+R2
+R3
+R4
+DEx4 work 8 reg_file 0 22 0@XZ=L><0e0m?MYgVTmg`2
+l22
+L19
+VV17h>A0?a^HTzOK7[gO_n3
+!s100 NCf@lbYb6@kZ6NlOTk=ki3
+R7
+31
+R34
+!i10b 1
+R35
+R72
+R73
+!i113 1
+R12
+R13
+Esp
+R1
+R2
+R3
+R4
+R0
+Z74 8D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd
+Z75 FD:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd
+l0
+L10
+VzQeN1>H?F0@nkbNDU7iE>2
+!s100 gF48^bAdXfa4T1dach8d^2
+R7
+31
+R16
+!i10b 1
+R17
+Z76 !s90 -reportprogress|300|-93|-work|work|D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd|
+Z77 !s107 D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd|
+!i113 1
+R12
+R13
+Asp_arch
+R2
+R3
+R4
+DEx4 work 2 sp 0 22 zQeN1>H?F0@nkbNDU7iE>2
+l31
+L18
+VeMfTj]V8d_LEOnNRF3Z0W3
+!s100 RW^WeLzBf8ggNcaY3Z;Mk0
+R7
+31
+R16
+!i10b 1
+R17
+R76
+R77
+!i113 1
+R12
+R13

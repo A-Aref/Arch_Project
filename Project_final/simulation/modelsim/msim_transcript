@@ -1,0 +1,616 @@
+# Reading D:/Microprocessor-Intel/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+# do CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Microprocessor-Intel/ModelSim/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Exception_Handling.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:44 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Exception_Handling.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Exception_Handling
+# -- Compiling architecture behavioural of Exception_Handling
+# End time: 09:44:44 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/EPC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:44 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/EPC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity EPC
+# -- Compiling architecture behavioural of EPC
+# End time: 09:44:44 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/FetchDecode.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:44 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/FetchDecode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FetchDecode
+# -- Compiling architecture Behavioral of FetchDecode
+# End time: 09:44:44 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/DecodeExecute.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:44 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/DecodeExecute.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DecodeExecute
+# -- Compiling architecture Behavioral of DecodeExecute
+# End time: 09:44:44 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Reg_File.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:44 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Reg_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_File
+# -- Compiling architecture Reg_File_arch of Reg_File
+# End time: 09:44:44 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_bit_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:44 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_bit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_bit_adder
+# -- Compiling architecture N_bit_adder_arch of N_bit_adder
+# End time: 09:44:45 on Dec 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:45 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity INST_Mem
+# -- Compiling architecture INST_Mem_arch of INST_Mem
+# ** Warning: D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd(30): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/INST_Mem.vhd(49): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# End time: 09:44:45 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:45 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Full_adder
+# -- Compiling architecture Full_adder_arch of Full_adder
+# End time: 09:44:45 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_DFF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:45 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/N_DFF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_DFF
+# -- Compiling architecture N_DFF_arch of N_DFF
+# End time: 09:44:45 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:45 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# End time: 09:44:45 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:45 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU
+# -- Compiling architecture CPU_arch of CPU
+# End time: 09:44:45 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:46 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Controller
+# -- Compiling architecture Controller_arch of Controller
+# End time: 09:44:46 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Data_Mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:46 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Data_Mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Data_Mem
+# -- Compiling architecture Data_Mem_arch of Data_Mem
+# End time: 09:44:46 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:46 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SP
+# -- Compiling architecture SP_arch of SP
+# ** Warning: D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/SP.vhd(36): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# End time: 09:44:46 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CCR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:46 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/CCR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CCR
+# -- Compiling architecture CCR_arch of CCR
+# End time: 09:44:46 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Forward_Unit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:44:46 on Dec 26,2024
+# vcom -reportprogress 300 -93 -work work D:/Old Data/Term1_year3/Com_Arch/Project_finallllll/Project_final/Forward_Unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Forward_Unit
+# -- Compiling architecture behaviour of Forward_Unit
+# End time: 09:44:46 on Dec 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.cpu
+# vsim work.cpu 
+# Start time: 09:45:08 on Dec 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cpu(cpu_arch)
+# Loading work.n_dff(n_dff_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.inst_mem(inst_mem_arch)
+# Loading work.n_bit_adder(n_bit_adder_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.fetchdecode(behavioral)
+# Loading work.reg_file(reg_file_arch)
+# Loading work.controller(controller_arch)
+# Loading work.decodeexecute(behavioral)
+# Loading work.forward_unit(behaviour)
+# Loading work.alu(alu_arch)
+# Loading work.ccr(ccr_arch)
+# Loading work.sp(sp_arch)
+# Loading work.exception_handling(behavioural)
+# Loading work.epc(behavioural)
+# Loading work.data_mem(data_mem_arch)
+add wave -position insertpoint  \
+sim:/cpu/clk
+add wave -position insertpoint  \
+sim:/cpu/rst
+add wave -position insertpoint  \
+sim:/cpu/Input
+add wave -position insertpoint  \
+sim:/cpu/Output
+add wave -position insertpoint  \
+sim:/cpu/PC
+add wave -position insertpoint  \
+sim:/cpu/Stack_Pointer
+add wave -position insertpoint  \
+sim:/cpu/epc_out
+add wave -position insertpoint  \
+sim:/cpu/Flags_OUT
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Marwan  Hostname: DESKTOP-91MS88B  ProcessID: 32740
+#           Attempting to use alternate WLF file "./wlft83ee1m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft83ee1m
+force -freeze sim:/cpu/Input 0000000000000000 0
+force -freeze sim:/cpu/rst 1 0
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Int_Mem
+mem load -i {D:/Old Data/Term1_year3/Com_Arch/assembler/output.mem} -format mti /cpu/Int_Mem/MEM
+force -freeze sim:/cpu/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+vsim work.cpu
+# WARNING: No extended dataflow license exists
+# End time: 09:49:38 on Dec 26,2024, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 16
+# vsim work.cpu 
+# Start time: 09:49:38 on Dec 26,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cpu(cpu_arch)
+# Loading work.n_dff(n_dff_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.inst_mem(inst_mem_arch)
+# Loading work.n_bit_adder(n_bit_adder_arch)
+# Loading work.full_adder(full_adder_arch)
+# Loading work.fetchdecode(behavioral)
+# Loading work.reg_file(reg_file_arch)
+# Loading work.controller(controller_arch)
+# Loading work.decodeexecute(behavioral)
+# Loading work.forward_unit(behaviour)
+# Loading work.alu(alu_arch)
+# Loading work.ccr(ccr_arch)
+# Loading work.sp(sp_arch)
+# Loading work.exception_handling(behavioural)
+# Loading work.epc(behavioural)
+# Loading work.data_mem(data_mem_arch)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/cpu/clk
+add wave -position insertpoint  \
+sim:/cpu/rst
+add wave -position insertpoint  \
+sim:/cpu/Input
+add wave -position insertpoint  \
+sim:/cpu/Output
+add wave -position insertpoint  \
+sim:/cpu/PC
+add wave -position insertpoint  \
+sim:/cpu/Stack_Pointer
+add wave -position insertpoint  \
+sim:/cpu/epc_out
+add wave -position insertpoint  \
+sim:/cpu/Flags_OUT
+force -freeze sim:/cpu/Input 0000000000000000 0
+force -freeze sim:/cpu/rst 1 0
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Marwan  Hostname: DESKTOP-91MS88B  ProcessID: 32740
+#           Attempting to use alternate WLF file "./wlftvs1ceg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvs1ceg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Int_Mem
+mem load -i {D:/Old Data/Term1_year3/Com_Arch/assembler/output.mem} -format mti /cpu/Int_Mem/MEM
+force -freeze sim:/cpu/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+mem load -filltype value -filldata {0313 } -fillradix hexadecimal /cpu/Registers/MEM(5)
+run
+restart
+force -freeze sim:/cpu/Input 0000000000000000 0
+force -freeze sim:/cpu/rst 1 0
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Int_Mem
+mem load -i {D:/Old Data/Term1_year3/Com_Arch/assembler/output.mem} -format mti /cpu/Int_Mem/MEM
+force -freeze sim:/cpu/rst 0 0
+run
+restart
+force -freeze sim:/cpu/Input 0000000000000000 0
+force -freeze sim:/cpu/rst 1 0
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /cpu/Int_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /cpu/Int_Mem
+mem load -i {D:/Old Data/Term1_year3/Com_Arch/assembler/output.mem} -format mti /cpu/Int_Mem/MEM
+force -freeze sim:/cpu/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 10:08:39 on Dec 26,2024, Elapsed time: 0:19:01
+# Errors: 0, Warnings: 42
